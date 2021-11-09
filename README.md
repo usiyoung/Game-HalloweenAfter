@@ -48,7 +48,7 @@
 
 |게임 진행중 일시정지 | 게임 종료후 재시작|
 |:-:|:-:|
-|![mov5](./readme/readme5.gif)|![mov5](./readme/readme6.gif)|
+|![mov5](./readme/readme5.gif)|![mov5](./readme//Hnet-image.gif)|
 
 <br>
 
