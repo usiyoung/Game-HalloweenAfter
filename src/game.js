@@ -42,6 +42,7 @@ class Game{
         this.gameTimer = document.querySelector('.game-timer');
         this.count = document.querySelector('.count');    
         this.timer = '';
+        this.gameZone = document.querySelector('.game-zone');   
         this.gameZoneCreate = new GameZone(toothCount,candyCount);
         this.gameZoneCreate.setClickListener(this.onItemClick);
     }
@@ -72,6 +73,7 @@ class Game{
             pauseIcon.classList.remove('fa-pause');
             clearInterval(this.timer);
             sound.stopBackground();
+            this.gameZone.innerHTML = '';
         }
         else if(target.className === 'fas fa-redo-alt'){
             target.classList.remove('fa-redo-alt');
