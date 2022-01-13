@@ -1,11 +1,12 @@
 # Game - Halloween after
-🦷 할로윈을 보낸 캔디소녀의 뒷 이야기
+
+[DEMO](https://pedantic-hoover-11fbeb.netlify.app)
+
 ## stack
 `html` `css` `javascript`
 
-![ezgif com-gif-maker](./readme/readme1.gif)
 
-[DEMO](https://pedantic-hoover-11fbeb.netlify.app)
+
 ## learned
 1. `getBoundingClientRect`: 요소의 크기와 뷰포트에 상대적인 위치를 알 수 있습니다. 메서드를 통해 게임 존의 넓이와 높이를 구해 아이템의 위치를 게임 존 기준으로 랜덤 배치 할 수 있었습니다.
 2.  dom을 조작하고 이벤트 메서드를 사용해 기능을 만들었습니다. 
